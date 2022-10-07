@@ -1,6 +1,7 @@
 import React, {Component, Fragment} from 'react';
 import {Col, Container, Row} from "react-bootstrap";
 import logo from '../../assets/images/logo.png';
+import {Link} from "react-router-dom";
 
 class Courses extends Component {
     render() {
@@ -19,7 +20,7 @@ class Courses extends Component {
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam aperiam
                                         culpa, cumque deserunt distinctio dolores excepturi ipsam, molestiae omnis quidem quis quo
                                         rerum! Excepturi perferendis quasi sed veritatis voluptas.</p>
-                                    <a href="#" className="btn btn-success">details</a>
+                                    <Link to="/Course" className="btn btn-success">details</Link>
                                 </Col>
                             </Row>
                         </Col>
@@ -33,7 +34,7 @@ class Courses extends Component {
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam aperiam
                                         culpa, cumque deserunt distinctio dolores excepturi ipsam, molestiae omnis quidem quis quo
                                         rerum! Excepturi perferendis quasi sed veritatis voluptas.</p>
-                                    <a href="#" className="btn btn-success">details</a>
+                                    <Link to="contact" className="btn btn-success">details</Link>
                                 </Col>
                             </Row>
                         </Col>
@@ -47,7 +48,7 @@ class Courses extends Component {
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam aperiam
                                         culpa, cumque deserunt distinctio dolores excepturi ipsam, molestiae omnis quidem quis quo
                                         rerum! Excepturi perferendis quasi sed veritatis voluptas.</p>
-                                    <a href="#" className="btn btn-success">details</a>
+                                    <Link to="portfolio" className="btn btn-success">details</Link>
                                 </Col>
                             </Row>
                         </Col>
