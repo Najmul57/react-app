@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;}
+.topFixedBanner{
+    background-image: url("../images/banner.avif");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.topBannerOverlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    content: '';
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,.5) ;
+}
+.toContent{
+    margin-top: 10rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.serviceCard {
+    margin: 5px;
+    padding: 60px 30px;
+    box-shadow: 0 0 4px 0 rgb(0 115 230 / 20%);
+    transition: .5s ease-in-out;
+}
+.serviceCard:hover {
+    box-shadow: 0 0 8px 0 rgb(0 115 230 / 20%);
+}
+.section-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #0073E6;
+    margin: 0;
+    padding: 20px 0;
+    font-weight: 700;
+}
+.serviceCard h2 {
+    font-size: 26px;
+    margin: 0;
+    text-transform: capitalize;
+    padding: 10px 0;
+}
+
+.serviceCard p {
+    margin: 0;
+}
+
+.navTitle{
+    box-shadow: 0 0 4px 0 rgb(0 115 230 / 20%);
+    color: #fff !important;
+    font-weight: bold;
+    transition: .5s ease-in-out;
+    font-size: 1.5rem;
+}
+.navTitleScroll{
+    color:#0073E6 !important;
+    transition: .5s ease-in-out;
+}
+.navBarBackground {
+    background: transparent;
+    transition: .5s ease-in-out;
+    -o-transition:.5s ease-in-out ;
+    -moz-transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+}
+
+.navBarBackgroundScroll {
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    transition: .5s ease-in-out;
+    -o-transition:.5s ease-in-out ;
+    -moz-transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+}
+.navItemColor {
+    color: #fff !important;
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 600 !important;
+    font-family: 'Montserrat', sans-serif;
+    transition: .5s ease-in-out linear;
+    -o-transition: .5s ease-in-out linear;
+    -moz-transition: .5s ease-in-out linear;
+    -webkit-transition: .5s ease-in-out linear;
+    text-decoration: none;
+}
+
+.navItemColorScroll {
+    color: #000 !important;
+    text-transform: uppercase;
+    font-weight: 600 !important;
+    font-family: 'Montserrat', sans-serif;
+    transition: .5s ease-in-out linear;
+    -o-transition: .5s ease-in-out linear;
+    -moz-transition: .5s ease-in-out linear;
+    text-decoration: none;
+    -webkit-transition: .5s ease-in-out linear;
+}
+.technology-used  p {
+    text-align: justify;
+}
+
+.summaryBanner{
+    background-image: url("../images/banner.avif");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.summaryOverlay {
+    position: absolute;
+    height: 100%;
+    display: flex;
+    width: 100%;
+    content: '';
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,.5);
+    align-items: center;
+}
+p.card-text ul {
+    margin: 0;
+    padding: 0;
+}
+
+p.card-text ul li {
+    list-style: none;
+    text-align: left;
+}
+p.card-text ul li svg {
+    color: #2F8BE6;
+}
+.client-img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #14cd98;
+    position: relative;
+    border-radius: 100%;
+    padding: 2px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+.topFixedPage{
+    background-image: url("../images/banner.avif");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.topPageOverlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    content: '';
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,.5) ;
+}
+.toPageContent{
+    margin-top: 10rem;
+    font-family: 'Montserrat', sans-serif;
+}
